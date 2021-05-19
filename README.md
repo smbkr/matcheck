@@ -14,6 +14,8 @@ prevent shell expansion.
 
 It exits with `0` if the path matches, and with `1` if there is no match. Exit code `2` is used for errors.
 
+```
 ~/ matcheck /var/lib '/*/lib' && matcheck /var/lib '/vaaar/lib'
 MATCH ✅
-NO MATCH ❌ 
+NO MATCH ❌
+``` 
