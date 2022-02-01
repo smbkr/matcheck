@@ -6,7 +6,7 @@ for CircleCI config.
 ## Installation
 
 * Install Golang toolchain, make sure that `go/bin` is in your `PATH`
-* `go get github.com/smbkr/matcheck`
+* `go install github.com/smbkr/matcheck@latest`
 
 
 ## Usage
