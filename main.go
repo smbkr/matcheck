@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	const Error = 1
+	const Error = 2
 	const NoMatch = 1
 	const OK = 0
 
@@ -16,7 +16,7 @@ func main() {
 		os.Exit(Error)
 	}
 
-	var path = os.Args[Error]
+	var path = os.Args[1]
 	var pattern = os.Args[2]
 
 	match, err := filepath.Match(pattern, path)
